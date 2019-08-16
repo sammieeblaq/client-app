@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import "./styles/styles.scss";
+import "./styles/_styles.scss";
+import "normalize.css";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
